@@ -1,7 +1,4 @@
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
 import os
 st.set_page_config(page_title="Chatbot Anglais", page_icon="🇬🇧")
 st.title(" Chatbot pour apprendre l’anglais ")
