@@ -4,7 +4,7 @@ st.set_page_config(page_title="Chatbot Anglais", page_icon="🇬🇧")
 st.title(" Chatbot pour apprendre l’anglais ")
 
 # Entrée utilisateur
-def chatbot():
+
     st.write ("Bot: Bonjour,Je suis ton assisant virtuel,tape 'quit' pour quitter ")
     while True :
         user=st.text_input("vous:").lower()
@@ -21,7 +21,7 @@ def chatbot():
         else :
             st.write("Bot: Désolé, je n'ai pas compris. 😕")
 
-chatbot()
+
 
 
 
